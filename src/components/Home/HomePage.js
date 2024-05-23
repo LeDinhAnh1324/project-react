@@ -1,4 +1,4 @@
 const HomePage = (props) => {
-  return <div className="homepage-container">Home Page</div>;
+  return <div className="homepage-container">helloHomePage</div>;
 };
 export default HomePage;
