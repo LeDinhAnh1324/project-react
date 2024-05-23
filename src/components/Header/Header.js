@@ -24,19 +24,14 @@ const Header = () => {
             <NavLink to="/admins" className="nav-link">
               Admin
             </NavLink>
-            <NavLink to="/login" className="nav-link">
-              Login
-            </NavLink>
-            <NavLink to="/register" className="nav-link">
-              Register
-            </NavLink>
           </Nav>
           <Nav>
+            <button className="btn-login">Log in</button>
+            <button className="btn-signup">Sign up</button>
             <NavDropdown title="Setting" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/profile">
-                Profile
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/logins">Log in</NavDropdown.Item>
+              <NavDropdown.Item>Profile</NavDropdown.Item>
+              <NavDropdown.Item>Log in</NavDropdown.Item>
+              <NavDropdown.Item>Log out</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
